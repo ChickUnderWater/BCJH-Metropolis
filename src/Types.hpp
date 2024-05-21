@@ -150,7 +150,7 @@ class Ability {
         return p;
     }
     /* Knife, Stirfry, Bake, Boil, Steam, Fry */
-    const int operator[](int name) {
+    int operator[](int name) {
         if (name == KNIFE) {
             return this->knife;
         }
